@@ -19,11 +19,45 @@
       <p class="lead">Édition vacances 2020</p>
     </div>
   </header>
-  <section>
+  <section id="theSection" class="trou">
     <div class="container">
       <h2>Liste des liens 🏖 :</h2>
+      <section class="row justify-content-center">
+        <div class="col-lg-4">
+          <div class="input-group mt-3 mb-2">
+            <label class="input-group-text bg-warning" for="inputGroupSelect01"
+              >Trier</label
+            >
+            <select
+              class="form-select"
+              id="filteralphadate"
+              name="filteralphadate"
+            >
+              <option value="1" selected>De A à Z</option>
+              <option value="2">De Z à A</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="input-group mt-3 mb-2">
+            <label class="input-group-text bg-warning" for="inputGroupSelect01"
+              >Catégorie</label
+            >
+            <select
+              class="form-select"
+              id="filteralphadate"
+              name="filteralphadate"
+            >
+              <option value="1" selected>JavaScript</option>
+              <option value="2">Portfolio</option>
+              <option value="3">Inspiration</option>
+              <option value="4">Misc</option>
+            </select>
+          </div>
+        </div>
+    </section>
       <div id="container" class="mb-3"></div>
-    </div>
+  </div>
   </section>
   <section class="bg-dark text-white py-5">
     <div class="container">
@@ -50,7 +84,7 @@
             <option value="misc">Misc</option>
           </select>
         </div>
-        <button class="btn btn-warning" type="submit">Ajouter</button>
+        <button class="btn btn-warning btn-lg btn-block" type="submit">Ajouter</button>
       </form>
     </div>
   </section>

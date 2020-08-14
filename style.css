@@ -1,9 +1,20 @@
+/*body {
+  #theSection { 
+    background-image: url(images/tenor.gif); no-repeat center fixed;
+      background-size: cover;
+  }*/
+
+
 body {
   font-family: Atma, sans-serif;
 }
 
+section.bg-dark  {
+  background-image: url(images/stars.gif); no-repeat center fixed;
+  background-size: cover;
+}
+
 .page-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(images/holidays.jpg);
+  background-image: url(images/stars.gif); no-repeat center fixed;
   background-size: cover;
 }
